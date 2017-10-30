@@ -35,18 +35,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random randomNumberGenerator = new Random();
                 int number = randomNumberGenerator.nextInt(7);
-                Log.d("Dicee", "The number is " + number );
+                Log.d("Dicee", "The number for the left dice is " + number);
 
                 int imageResourceId = diceArray[number];
                 leftDice.setImageResource(imageResourceId);
 
-                number = randomNumberGenerator.nextInt(700);
+                number = randomNumberGenerator.nextInt(7);
+                Log.d("Dicee", "The number for the right dice is " + number);
                 imageResourceId = diceArray[number];
                 rightDice.setImageResource(imageResourceId);
-
-                double addition = 1.0 + 0.00000000000000000000000000000001;
-                Log.d("Dicee", "" + addition) ;
-
             }
         });
 
