@@ -1,4 +1,4 @@
-package com.londonappbrewery.dice_nested_completed;
+package com.londonappbrewery.dice_nested_debug;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

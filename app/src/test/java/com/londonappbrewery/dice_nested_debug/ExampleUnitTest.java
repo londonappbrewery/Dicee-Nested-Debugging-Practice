@@ -1,4 +1,4 @@
-package com.londonappbrewery.dice_nested_completed;
+package com.londonappbrewery.dice_nested_debug;
 
 import org.junit.Test;
 
