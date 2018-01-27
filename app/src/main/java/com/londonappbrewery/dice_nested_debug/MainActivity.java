@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 int imageResourceId = diceArray[number];
                 leftDice.setImageResource(imageResourceId);
 
-                number = randomNumberGenerator.nextInt(7);
+                number = randomNumberGenerator.nextInt(100);
                 Log.d("Dicee", "The number for the right dice is " + number);
                 imageResourceId = diceArray[number];
                 rightDice.setImageResource(imageResourceId);
