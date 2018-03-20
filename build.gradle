@@ -19,11 +19,6 @@ allprojects {
     repositories {
         jcenter()
         google()
-        // Adding Maven repo location since this is where AppCompat has moved to.
-        maven {
-            url "https://maven.google.com"
-        }
-
     }
 }
 
