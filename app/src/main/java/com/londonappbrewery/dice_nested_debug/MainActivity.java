@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final ImageView leftDice = (ImageView) findViewById(R.id.image_leftDice);
-        final ImageView rightDice = (ImageView) findViewById(R.id.image_rightDice);
+        final ImageView leftDice = findViewById(R.id.image_leftDice);
+        final ImageView rightDice = findViewById(R.id.image_rightDice);
 
-        Button myButton = (Button) findViewById(R.id.rollButton);
+        Button myButton = findViewById(R.id.rollButton);
 
         final int[] diceArray = new int[] {
                 R.drawable.dice1,
